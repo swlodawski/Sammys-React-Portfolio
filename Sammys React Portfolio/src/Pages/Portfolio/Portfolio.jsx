@@ -9,7 +9,7 @@ function Portfolio() {
 
                 <div className='container'>
 
-                <div className='row row-cols-1 row-cols--sm-2 row-cols-md-3 g-3'>
+                <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
                     <div className='col'>
                         <div className='card shadow-sm'>
                             <img src="src\images\zenGarden.jpg" alt="Peaceful Garden" />
@@ -23,7 +23,7 @@ function Portfolio() {
                             </div>
                         </div>
                     </div>   
-                    <div className='row row-cols-1 row-cols--sm-2 row-cols-md-3 g-3'>
+                    <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
                     <div className='col'>
                         <div className='card shadow-sm'>
                             <img src="src\images\MeCommerce.jpg" alt="E Commerce Photo" />
@@ -37,7 +37,7 @@ function Portfolio() {
                             </div>
                         </div>
                     </div>
-                    <div className='row row-cols-1 row-cols--sm-2 row-cols-md-3 g-3'>
+                    <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
                     <div className='col'>
                         <div className='card shadow-sm'>
                             <img src="src\images\SVG-Generator.png" alt="Generic SVG Shape Picture" />
@@ -51,6 +51,21 @@ function Portfolio() {
                             </div>
                         </div>
                     </div>
+                    <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
+                    <div className='col'>
+                    <div className='card shadow-sm'> 
+                        <img src="src\images\outLets.jpg" alt="Events Picture" />
+                        <div className='card-body'>
+                            <p className='card-text'>outLets Project Using HTML, CSS, JavaScript, the SeatGeek API, ect.</p>
+                            <div className='d-flex justify-content-between align-items-center'>
+                                <div className='btn-group'>
+                                    <button id='viewbutton' className='btn btn-primary w-100 py-2 alignt-items-center' type='submit'><a href="https://github.com/fsfgroup8/OUTlets">View</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                    </div>
+                    </div>
                 </div>
                 </div>
             </div>
@@ -59,3 +74,5 @@ function Portfolio() {
         </div>
     )
 }
+
+export default Portfolio
