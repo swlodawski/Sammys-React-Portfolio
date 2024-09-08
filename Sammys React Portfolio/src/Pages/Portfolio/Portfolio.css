@@ -1,0 +1,19 @@
+#Astrolab {
+    width: 100%;
+    border-bottom: solid 3px;
+}
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0.050);
+}
+
+.card-text {
+    color: blanchedalmond;
+}
+
+#viewButton {
+    background-color: gold;
+    color: rgba(0, 0, 0, 0.050);
+    border: rgba(0, 0, 0, 0.050);
+    font-weight: 500;
+}
