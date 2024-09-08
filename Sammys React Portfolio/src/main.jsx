@@ -17,15 +17,15 @@ const router = createBrowserRouter({
       element: <AboutMe />
     },
     {
-      index: true,
+      path: '/Resume',
       element: <Resume />
     },
     {
-      index: true,
+      path: '/Portfolio',
       element: <Portfolio />
     },
     {
-      index: true,
+      path: '/Contact',
       element: <Contact />
     },
   ]

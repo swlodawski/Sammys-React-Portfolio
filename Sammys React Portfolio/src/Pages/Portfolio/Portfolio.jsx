@@ -19,6 +19,8 @@ function Portfolio() {
                                     <div className='btn-group'>
                                         <button id='viewbutton' className='btn btn-primary w-100 py-2 align-items-center' type='submit'><a href="https://github.com/Group-One-FSF-Project-2/zenGarden">View</a></button>
                                     </div>
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -32,6 +34,8 @@ function Portfolio() {
                                 <div className='d-flex justify-content-between align-items-center'>
                                     <div className='btn-group'>
                                         <button id='viewbutton' className='btn btn-primary w-100 py-2 align-items-center' type='submit'><a href="https://github.com/swlodawski/ME-Commerce-Site">View</a></button>
+                                    </div>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
@@ -51,6 +55,7 @@ function Portfolio() {
                             </div>
                         </div>
                     </div>
+                    </div>
                     <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
                     <div className='col'>
                     <div className='card shadow-sm'> 
@@ -65,13 +70,9 @@ function Portfolio() {
                         </div>
                     </div>   
                     </div>
-                    </div>
-                </div>
-                </div>
             </div>
         </div>
-        </div>
-        </div>
+
     )
 }
 
