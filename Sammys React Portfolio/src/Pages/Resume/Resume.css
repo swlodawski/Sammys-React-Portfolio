@@ -1,0 +1,13 @@
+#resume {
+    margin: 50px;
+    padding: 50px;
+    font-weight: 450;
+    background-color: azure;
+    border-radius: 5%;
+}
+
+#resumecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
