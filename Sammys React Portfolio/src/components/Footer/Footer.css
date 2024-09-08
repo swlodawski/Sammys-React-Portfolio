@@ -1,0 +1,26 @@
+#footer {
+    background-color: black;
+    color: gold;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+footer h4 {
+    padding-right: 45px;
+}
+
+footer a {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: gold;
+}
