@@ -8,28 +8,30 @@ import App from './App'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-const router = createBrowserRouter({
+const router = createBrowserRouter([
+  {
   path: "/",
   element: <App />,
   children: [
     {
       index: true,
-      element: <AboutMe />
+      element: <AboutMe />,
     },
     {
       path: '/Resume',
-      element: <Resume />
+      element: <Resume />,
     },
     {
       path: '/Portfolio',
-      element: <Portfolio />
+      element: <Portfolio />,
     },
     {
       path: '/Contact',
-      element: <Contact />
+      element: <Contact />,
     },
-  ]
-})
+  ],
+}
+]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
