@@ -11,7 +11,7 @@ function AboutMe() {
                     <strong><p id='aboutMeSection' className='lead'>My name is Samuel and I am a fullstack-web developer. My profienicenies include HTML, CSS, JavaScript and node.js. With my knowledge, I could be an asset to your business</p></strong>
                 </div>
                 <div className='col-10 col-small-8 col-lg-6'>
-                    <img id='portfolio-picture' src="src\images\Header-IMG.jpg" className='d-block mx-lg-auto img-fluid' alt="Bootstrap Themes" width="450" loading='lazy'/>
+                    <img id='portfolio-picture' src="src\images\Header-IMG.jpg" className='d-block mx-lg-auto img-fluid' alt="" width="450" loading='lazy'/>
                 </div>
             </div>
             </div>

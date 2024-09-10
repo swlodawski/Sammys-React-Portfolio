@@ -8,12 +8,13 @@
 }
 
 .card-text {
-    color: blanchedalmond;
+    color: black;
 }
 
 #viewButton {
-    background-color: gold;
+    background-color: black;
     color: rgba(0, 0, 0, 0.050);
     border: rgba(0, 0, 0, 0.050);
     font-weight: 500;
 }
+
